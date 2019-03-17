@@ -259,8 +259,8 @@ $config_db['orders_ext'] = $config['dir_database'].'orders_ext.php';
 $config['language'] = LANGUAGE;
 $config['version'] = '6.7';
 
-$config['last_login'] = "1552765204";
-$config['before_last_login'] = "1552241842";
+$config['last_login'] = "1552788190";
+$config['before_last_login'] = "1552765204";
 
 $config['manual_link'] = 'http://opensolution.org/Quick.Cart/docs/ext_6.6/?id='.( ( $config['admin_lang']=='pl' ) ? 'pl' : 'en' ).'-';
 
