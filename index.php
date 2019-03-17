@@ -1,3 +1,4 @@
+
 <?php
 /*
 * Quick.Cart by OpenSolution.org
@@ -27,6 +28,8 @@ require_once DIR_CORE.'pages.php';
 require_once DIR_CORE.'files.php';
 require_once DIR_CORE.'products.php';
 require_once DIR_CORE.'orders.php';
+
+
 
 $sPhrase = isset( $sPhrase ) && !empty( $sPhrase ) ? trim( changeSpecialChars( htmlspecialchars( stripslashes( $sPhrase ) ) ) ) : null;
 
@@ -65,6 +68,7 @@ if( !isset( $_SESSION['iCustomer'.LANGUAGE] ) ){
 
 $iOrderProducts = isset( $_SESSION['iOrderQuantity'.LANGUAGE] ) ? $_SESSION['iOrderQuantity'.LANGUAGE] : 0;
 
+ 
 if( isset( $iContent ) && is_numeric( $iContent ) ){
   $aData = $oPage->throwPage( $iContent );
   if( isset( $aData ) ){

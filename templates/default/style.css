@@ -166,6 +166,25 @@ header {
 }
 
 
+.sort {
+  display: flex;
+  margin-top: 30px;
+}
+
+.sort ul {
+  display: flex;
+  list-style: none;
+}
+
+.sort ul li {
+  padding: 0 20px;
+}
+
+.sort ul li a {
+  color: #F2355B;
+  text-decoration: none;
+}
+
 
 ul.list{
   display: flex;
@@ -278,3 +297,23 @@ ul.list li h2 a {
   color: #D7DDE8;
 }
 
+
+#orderedProducts {
+  border: none;
+    /* margin-top: 30px; */
+    /* text-align: center; */
+    
+}
+
+#orderedProducts thead td {
+  padding-bottom: 11px;
+  background: #2e6896;
+  color: #fff;
+  text-shadow: 1px 1px #17344b;
+}
+
+#orderedProducts tbody th, #orderedProducts tbody td {
+  border-top: 2px solid #fff;
+  background: #f0f6fa url(img/body.png);
+  border-bottom: 1px solid #e0e0e0;
+}

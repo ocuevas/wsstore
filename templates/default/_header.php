@@ -69,4 +69,7 @@ if( !defined( 'CUSTOMER_PAGE' ) )
           echo $oPage->throwMenu( 3, $iContent, 1, true ); // content of left menu ?><?php 
         }?>       
       </div>
+      <div class="hero">
+        <img src="" alt="">
+      </div>
       <div id="content">
